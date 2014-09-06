@@ -8,10 +8,10 @@
 
 @class NSMutableSet, UIDelayedAction, NSArray;
 
-@protocol UILongPressGestureRecognizerDelegate <NSObject, UIGestureRecognizerDelegate>
-@optional
--(BOOL)longPressGestureCanTransitionToRecognizedState:(id)recognizedState;
-@end
+//@protocol UILongPressGestureRecognizerDelegate <NSObject, UIGestureRecognizerDelegate>
+//@optional
+//-(BOOL)longPressGestureCanTransitionToRecognizedState:(id)recognizedState;
+//@end
 
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_3_2
 
@@ -39,7 +39,7 @@
 	float _allowableMovement;
 	CGPoint _startPointScreen;
 	UIDelayedAction* _enoughTimeElapsed;
-	id<UILongPressGestureRecognizerDelegate> _delegate;
+	//id<UILongPressGestureRecognizerDelegate> _delegate;
 }
 @property(retain, nonatomic) NSArray* touches;
 @property(assign, nonatomic) int numberOfFingers;
@@ -48,7 +48,7 @@
 #endif
 @property(readonly, assign, nonatomic) CGPoint centroid;
 @property(readonly, assign, nonatomic) CGPoint startPoint;
-@property(assign, nonatomic) id<UILongPressGestureRecognizerDelegate> delegate;
+//@property(assign, nonatomic) id<UILongPressGestureRecognizerDelegate> delegate;
 // inherited: -(id)initWithTarget:(id)target action:(SEL)action;
 // inherited: -(void)dealloc;
 // inherited: -(void)reset;
