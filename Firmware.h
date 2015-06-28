@@ -69,4 +69,20 @@
 #define kCFCoreFoundationVersionNumber_iOS_7_1 847.26
 #endif
 
+#ifndef kCFCoreFoundationVersionNumber_iOS_8_0
+#define kCFCoreFoundationVersionNumber_iOS_8_0 1140.10
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_8_1
+#define kCFCoreFoundationVersionNumber_iOS_8_1 1141.14
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_8_2
+#define kCFCoreFoundationVersionNumber_iOS_8_2 1142.16
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_8_3
+#define kCFCoreFoundationVersionNumber_iOS_8_3 1144.17
+#endif
+
 #endif // COMMON_FIRMWARE_H_
