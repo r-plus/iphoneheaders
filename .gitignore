@@ -6,3 +6,4 @@ IOSurface/IOSurfaceAPI*
 libprefs
 libstatusbar
 objcipc
+substrate.h
