@@ -1,1 +1,8 @@
 .DS_Store
+ActionMenu
+AppList
+Flipswitch
+IOSurface/IOSurfaceAPI*
+libprefs
+libstatusbar
+objcipc
