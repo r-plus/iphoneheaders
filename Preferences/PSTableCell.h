@@ -7,10 +7,10 @@
 
 #import "Preferences-Structs.h"
 #import "PSSpecifier.h"
-#import <UIKit/UIPreferencesTableCell.h>
+#import <UIKit/UITableViewCell.h>
 
 
-@interface PSTableCell : UIPreferencesTableCell {
+@interface PSTableCell : UITableViewCell {
 	id _userInfo;
 	BOOL _checked;
 }
