@@ -35,7 +35,7 @@
 }
 @property(retain) NSArray* specifiers;
 @property(retain) NSString* specifierID;
-@property(retain) NSString* title;
+//@property(retain) NSString* title;
 @property(readonly, retain) UIPreferencesTable* table;
 @property(readonly, retain) PSSpecifier* specifier;
 +(BOOL)displaysButtonBar;
